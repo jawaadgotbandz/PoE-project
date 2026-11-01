@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="MSF South Africa - emergency medical care in conflict zones, donation, volunteering">
+<meta name="keywords" content="MSF, Doctors Without Borders, South Africa, donation, volunteer">
+<meta name="author" content="Your Name">
+<title>Donate | MSF Website</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <h1>MSF</h1>
+  <p>MSF doctor providing urgent medical care</p>
+  <a href="donate.html" class="donate-btn">Donate Now</a>
+</header>
+
+<nav>
+  <button class="hamburger" id="ham">☰</button>
+  <ul id="menu">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="where-we-work.html">Where We Work</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="donate.html">Donate</a></li>
+    <li><a href="enquiry.html">Enquiry</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+<main>
+  <div class="card">
+    <h2>Donate to MSF</h2>
+    <p>MSF is 90% funded by private donors to stay independent. Your donation helps us provide emergency medical aid where it is needed most.</p>
+    
+    <h3>Choose an amount</h3>
+    <div>
+      <button type="button" class="amount-btn" data-amount="100">R100</button>
+      <button type="button" class="amount-btn" data-amount="250">R250</button>
+      <button type="button" class="amount-btn" data-amount="500">R500</button>
+      <button type="button" class="amount-btn" data-amount="1000">R1000</button>
+    </div>
+
+    <input type="hidden" id="finalAmount" name="donation_amount">
+    <p>Selected: <span id="selectedAmount">R0</span></p>
+    
+    <form id="donateForm">
+      <label for="donorName">Full Name:</label>
+      <input type="text" id="donorName" name="donorName" required placeholder="Please enter your name">
+
+      <label for="donorEmail">Email:</label>
+      <input type="email" id="donorEmail" name="donorEmail" required placeholder="Please enter a valid email">
+
+      <label for="amount">Donation Amount (ZAR):</label>
+      <input type="number" id="amount" name="amount" placeholder="Or enter custom amount">
+
+      <button type="submit">Donate Now</button>
+    </form>
+  </div>
+  <section class="card" id="references">
+    <h2>References</h2>
+    <ul>
+      <li>Doctors Without Borders (2024) <em>MSF International Activity Report 2024.</em> Available at: https://www.msf.org/reports (Accessed: 24 October 2026).</li>
+      <li>MSF South Africa (2026) <em>Where We Work.</em> Available at: https://www.msf.org.za/where-we-work (Accessed: 24 October 2026).</li>
+      <li>MSF (2026) <em>Medical Services: Emergency Care, Vaccinations, Maternal Health.</em> Available at: https://www.msf.org/what-we-do (Accessed: 24 October 2026).</li>
+      <li>W3Schools (2026) <em>HTML Responsive Navigation.</em> Available at: https://www.w3schools.com/howto/howto_js_topnav.asp (Accessed: 24 October 2026).</li>
+    </ul>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2026 MSF - Medical Care</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
